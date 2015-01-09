@@ -1,3 +1,7 @@
 AddType text/html .html
 AddHandler server-parsed .html
 Options Indexes Includes FollowSymlinks
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript
+</IfModule>
