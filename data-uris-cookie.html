@@ -106,11 +106,11 @@
 		}
 
 		// an empty woff2 with no glyphs
-		var f = new win.FontFace( "t", 'url( "data:application/font-woff2," ) format( "woff2" )' );
-		f.load();
+		var f = new win.FontFace( "t", 'url( "data:application/font-woff2," ) format( "woff2" )', {} );
+		f.load().catch(function() {});
 
-		return f.status === 'loading';
-	})( window );
+		return f.status == 'loading';
+	})( this );
 
 	// load font (woff)
 	var ua = navigator.userAgent,
