@@ -5,3 +5,6 @@ Options Indexes Includes FollowSymlinks
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript
 </IfModule>
+
+AddType application/font-woff woff
+AddType application/font-woff2 woff2
