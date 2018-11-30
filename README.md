@@ -9,6 +9,6 @@ This repository is to support the Filament Group Lab Posts:
 
 ## Demos
 
-* [Font Loading using an Asynchronous Stylesheet of @font-face Data URIs](https://master.origin.font-loading.fgview.com/data-uris.html)
-* [Font Loading using an Asynchronous Stylesheet of @font-face Data URIs using Cookies for Cached Repeat View](https://master.origin.font-loading.fgview.com/data-uris-cookie.html)
-* [Font Loading using CSS `@font-face` and font-events for enabling fonts](https://master.origin.font-loading.fgview.com/font-events.html)
+* [Font Loading using an Asynchronous Stylesheet of @font-face Data URIs](https://filamentgroup.github.io/font-loading/data-uris.html)
+* [Font Loading using an Asynchronous Stylesheet of @font-face Data URIs using Cookies for Cached Repeat View](https://filamentgroup.github.io/font-loading/data-uris-cookie.html)
+* [Font Loading using CSS `@font-face` and font-events for enabling fonts](https://filamentgroup.github.io/font-loading/font-events.html)
